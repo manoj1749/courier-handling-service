@@ -159,7 +159,7 @@ class _homeState extends State<home> {
                                               InkWell(
                                                 onTap: () {
                                                   const url =
-                                                      'https://forms.gle/MVzG9uTsctGsfS5E7';
+                                                      'https://forms.gle/iR3WmhxRYJV1hT7N7';
                                                   openURL(url);
                                                 },
                                                 child: const CircleAvatar(
