@@ -10,7 +10,7 @@ class maintainer extends StatelessWidget {
           appBar: AppBar(
         backgroundColor: Colors.transparent,
         title: const Text(
-          '',
+          'Login',
           style: TextStyle(
             color: Colors.black,
             fontSize: 28.0,
@@ -24,7 +24,7 @@ class maintainer extends StatelessWidget {
           },
           icon: const Icon(
             Icons.arrow_back,
-            color: Colors.white,
+            color: Colors.black,
           ),
         ),
       )),

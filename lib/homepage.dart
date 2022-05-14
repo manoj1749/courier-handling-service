@@ -27,10 +27,10 @@ class _homeState extends State<home> {
       appBar: AppBar(
         backgroundColor: Colors.transparent,
         title: const Text(
-          '',
+          'COURIER MANAGEMENT SYSTEM',
           style: TextStyle(
+            fontSize: 21.0,
             color: Colors.black,
-            fontSize: 28.0,
             fontWeight: FontWeight.bold,
           ),
         ),
@@ -53,14 +53,6 @@ class _homeState extends State<home> {
                       alignment: Alignment.center,
                       padding: const EdgeInsets.all(15.0),
                       child: Column(children: const <Widget>[
-                        Text(
-                          'COURIER MANAGEMENT SYSTEM',
-                          style: TextStyle(
-                            fontSize: 21.0,
-                            color: Colors.black,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
                         Padding(
                             padding: EdgeInsets.only(top: 12, bottom: 12),
                             child: FaIcon(
@@ -144,7 +136,7 @@ class _homeState extends State<home> {
                                                   backgroundColor:
                                                       Colors.transparent,
                                                   backgroundImage: AssetImage(
-                                                      'images/2.png'),
+                                                      'assets/2.png'),
                                                 ),
                                               ),
                                               const Text(
@@ -176,7 +168,7 @@ class _homeState extends State<home> {
                                                   backgroundColor:
                                                       Colors.transparent,
                                                   backgroundImage: AssetImage(
-                                                      'images/3.png'),
+                                                      'assets/3.png'),
                                                 ),
                                               ),
                                               const Text(
@@ -216,7 +208,7 @@ class _homeState extends State<home> {
                                                   backgroundColor:
                                                       Colors.transparent,
                                                   backgroundImage: AssetImage(
-                                                      'images/4.png'),
+                                                      'assets/4.png'),
                                                 ),
                                               ),
                                               const Text(

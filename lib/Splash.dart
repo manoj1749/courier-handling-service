@@ -1,3 +1,5 @@
+// ignore_for_file: file_names, camel_case_types, use_build_context_synchronously
+
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'homepage.dart';
@@ -10,15 +12,16 @@ class splash extends StatefulWidget {
 }
 
 class _splashState extends State<splash> {
+  @override
   void initState() {
     super.initState();
     _navigatetohome();
   }
 
   _navigatetohome() async {
-    await Future.delayed(Duration(milliseconds: 5000));
+    await Future.delayed(const Duration(milliseconds: 5000));
     Navigator.pushReplacement(
-        context, MaterialPageRoute(builder: (context) => home()));
+        context, MaterialPageRoute(builder: (context) => const home()));
   }
 
   @override
@@ -28,13 +31,13 @@ class _splashState extends State<splash> {
         child: Column(
           children: [
             Padding(
-              padding: EdgeInsets.fromLTRB(0, 200, 0, 100),
+              padding: const EdgeInsets.fromLTRB(0, 200, 0, 100),
               child: Image.asset(
-                'images/Splash.png',
+                'assets/Splash.png',
                 height: 400,
               ),
             ),
-            SpinKitFadingCube(
+            const SpinKitFadingCube(
               color: Colors.lightBlue,
               size: 30.0,
             ),

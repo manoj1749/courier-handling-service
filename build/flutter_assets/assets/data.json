@@ -1,0 +1,74 @@
+{
+    "items": [
+        {
+            "Name": "A. Siddharth Reddy",
+            "Email": "anthireddysiddharthreddy@gmail.com",
+            "Enrollment": "AM.EN.U4ELC21042",
+            "Sem_branch": "S2-ELC",
+            "Hostel_Room": "Vrindhavan-103",
+            "Expected_Delivery_date": "2022-05-15T18:30:00.000Z",
+            "Contact": 6281287188,
+            "Delivery_Partner": "Ajio-Delhivery"
+        },
+        {
+            "Name": "Vallabhu Hemanth",
+            "Email": "vallabhu0102@gmail.com",
+            "Enrollment": "AM.EN.U4ELC21037",
+            "Sem_branch": "S2-ELC",
+            "Hostel_Room": "Vridavan-103",
+            "Expected_Delivery_date": "2022-05-19T18:30:00.000Z",
+            "Contact": 9154530102,
+            "Delivery_Partner": "Amazon"
+        },
+        {
+            "Name": "Mohan",
+            "Email": "mohanvarma1022@gmail.com",
+            "Enrollment": "AM.EN.U4ELC21007",
+            "Sem_branch": "S2-ELC",
+            "Hostel_Room": "Vridavan-104",
+            "Expected_Delivery_date": "2022-05-19T18:30:00.000Z",
+            "Contact": 9988456734,
+            "Delivery_Partner": "DTDC"
+        },
+        {
+            "Name": "Bandaru s v k pavan kumar",
+            "Email": "pavan192kumar9@gmail.com",
+            "Enrollment": "AM.EN.U4ELC21045",
+            "Sem_branch": "S2-ELC",
+            "Hostel_Room": "Vrindavan-102",
+            "Expected_Delivery_date": "2022-05-17T18:30:00.000Z",
+            "Contact": 7396729368,
+            "Delivery_Partner": "Amazon"
+        },
+        {
+            "Name": "Rigved",
+            "Email": "rigevd@gmail.com",
+            "Enrollment": "AM.EN.U4ELC21069",
+            "Sem_branch": "S2-ELC",
+            "Hostel_Room": "Vrindavan-99",
+            "Expected_Delivery_date": "2022-05-15T18:30:00.000Z",
+            "Contact": 9849896769,
+            "Delivery_Partner": "Amazon"
+        },
+        {
+            "Name": "Prashant Gehlot",
+            "Email": "gehlotprashant968@gmail.com",
+            "Enrollment": "AM.EN.U4ELC21048",
+            "Sem_branch": "S2-ELC",
+            "Hostel_Room": "Vridavan-108",
+            "Expected_Delivery_date": "2022-05-14T18:30:00.000Z",
+            "Contact": 6257897834,
+            "Delivery_Partner": "Amazon"
+        },
+        {
+            "Name": "Muddala surya sivanjana ramkee",
+            "Email": "ramkeemuddala@gmail.com",
+            "Enrollment": "AM.EN.U4ELC21047",
+            "Sem_branch": "S2-ELC",
+            "Hostel_Room": "vrindavan bhavan - 105",
+            "Expected_Delivery_date": "2022-05-15T18:30:00.000Z",
+            "Contact": 9493168962,
+            "Delivery_Partner": "India Post"
+        }
+    ]
+}
