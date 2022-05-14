@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'maintainer.dart';
+import 'delivery.dart';
 
 class home extends StatefulWidget {
   const home({Key? key}) : super(key: key);
@@ -129,7 +131,14 @@ class _homeState extends State<home> {
                                                 bottom: 20),
                                             child: Column(children: <Widget>[
                                               InkWell(
-                                                onTap: () {},
+                                                onTap: () {
+                                                  Navigator.push(
+                                                    context,
+                                                    MaterialPageRoute(
+                                                        builder: (context) =>
+                                                            const maintainer()),
+                                                  );
+                                                },
                                                 child: const CircleAvatar(
                                                   radius: 70.0,
                                                   backgroundColor:
@@ -194,7 +203,14 @@ class _homeState extends State<home> {
                                                 bottom: 20),
                                             child: Column(children: <Widget>[
                                               InkWell(
-                                                onTap: () {},
+                                                onTap: () {
+                                                  Navigator.push(
+                                                    context,
+                                                    MaterialPageRoute(
+                                                        builder: (context) =>
+                                                            const delivery()),
+                                                  );
+                                                },
                                                 child: const CircleAvatar(
                                                   radius: 70.0,
                                                   backgroundColor:
