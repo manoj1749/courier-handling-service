@@ -55,7 +55,8 @@ class _deliveryState extends State<delivery> {
             child: Column(children: [
               ElevatedButton(
                 onPressed: readJson,
-                child: const Text('Load Data'),
+                child: const Text('*'),
+                style: ElevatedButton.styleFrom(primary: Colors.black),
               ),
 
               // Display the data loaded from sample.json

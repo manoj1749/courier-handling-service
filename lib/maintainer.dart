@@ -63,6 +63,7 @@ class maintainer extends StatelessWidget {
                   },
                   child: const Text(
                     'Forgot Password',
+                    style: TextStyle(),
                   ),
                 ),
                 Container(
@@ -76,6 +77,7 @@ class maintainer extends StatelessWidget {
                           MaterialPageRoute(builder: (context) => logPage()),
                         );
                       },
+                      style: ElevatedButton.styleFrom(primary: Colors.black),
                     )),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
