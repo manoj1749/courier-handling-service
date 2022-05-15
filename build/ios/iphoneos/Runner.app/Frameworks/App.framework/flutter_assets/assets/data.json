@@ -8,7 +8,8 @@
             "Hostel_Room": "Vrindhavan-103",
             "Expected_Delivery_date": "2022-05-15T18:30:00.000Z",
             "Contact": 6281287188,
-            "Delivery_Partner": "Ajio-Delhivery"
+            "Delivery_Partner": "Ajio-Delhivery",
+            "Delivery_Status": ""
         },
         {
             "Name": "Vallabhu Hemanth",
@@ -18,7 +19,9 @@
             "Hostel_Room": "Vridavan-103",
             "Expected_Delivery_date": "2022-05-19T18:30:00.000Z",
             "Contact": 9154530102,
-            "Delivery_Partner": "Amazon"
+            "Delivery_Partner": "Amazon", 
+            "Delivery_Status": ""
+
         },
         {
             "Name": "Mohan",
@@ -28,7 +31,8 @@
             "Hostel_Room": "Vridavan-104",
             "Expected_Delivery_date": "2022-05-19T18:30:00.000Z",
             "Contact": 9988456734,
-            "Delivery_Partner": "DTDC"
+            "Delivery_Partner": "DTDC",
+            "Delivery_Status": ""
         },
         {
             "Name": "Bandaru s v k pavan kumar",
@@ -38,7 +42,8 @@
             "Hostel_Room": "Vrindavan-102",
             "Expected_Delivery_date": "2022-05-17T18:30:00.000Z",
             "Contact": 7396729368,
-            "Delivery_Partner": "Amazon"
+            "Delivery_Partner": "Amazon",
+            "Delivery_Status": ""
         },
         {
             "Name": "Rigved",
@@ -48,7 +53,8 @@
             "Hostel_Room": "Vrindavan-99",
             "Expected_Delivery_date": "2022-05-15T18:30:00.000Z",
             "Contact": 9849896769,
-            "Delivery_Partner": "Amazon"
+            "Delivery_Partner": "Amazon",
+            "Delivery_Status": ""
         },
         {
             "Name": "Prashant Gehlot",
@@ -58,7 +64,8 @@
             "Hostel_Room": "Vridavan-108",
             "Expected_Delivery_date": "2022-05-14T18:30:00.000Z",
             "Contact": 6257897834,
-            "Delivery_Partner": "Amazon"
+            "Delivery_Partner": "Amazon",
+            "Delivery_Status": ""
         },
         {
             "Name": "Muddala surya sivanjana ramkee",
@@ -68,7 +75,19 @@
             "Hostel_Room": "vrindavan bhavan - 105",
             "Expected_Delivery_date": "2022-05-15T18:30:00.000Z",
             "Contact": 9493168962,
-            "Delivery_Partner": "India Post"
+            "Delivery_Partner": "India Post",
+            "Delivery_Status": ""
+        },
+        {
+            "Name": "Manoj Parasuram Sadanala",
+            "Email": "manojparasuram.sadhanala@gmail.com",
+            "Enrollment": "AM.EN.U4ECE21149",
+            "Sem_branch": "S2-ECE",
+            "Hostel_Room": "Prahladha bhavan - 27",
+            "Expected_Delivery_date": "2022-05-20T17:30:00.000Z",
+            "Contact": 9000830070,
+            "Delivery_Partner": "FedEX",
+            "Delivery_Status": ""
         }
     ]
 }

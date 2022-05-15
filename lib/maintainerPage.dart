@@ -58,13 +58,20 @@ class _logPageState extends State<logPage> {
             onPressed: readJson,
             icon: Icon(Icons.refresh),
           ),
+          Container(child: ListView(children: <Widget>[Text('Data')])),
           Container(
-              child: ListView(children: <Widget>[
-            IconButton(
-              onPressed: (() {}),
-              icon: Icon(Icons.new_label),
+            padding: const EdgeInsets.fromLTRB(10, 10, 10, 0),
+            child: TextField(
+              obscureText: true,
+              decoration: const InputDecoration(
+                border: OutlineInputBorder(
+                  borderSide:
+                      const BorderSide(color: Colors.black, width: 10.0),
+                ),
+                labelText: 'Password',
+              ),
             ),
-          ]))
+          )
         ]),
       ),
     );
