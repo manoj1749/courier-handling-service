@@ -144,6 +144,15 @@ class _deliveryState extends State<delivery> {
                                             color: Colors.black),
                                       ),
                                     ),
+                                    DataColumn(
+                                      label: Text(
+                                        'Delivery Status',
+                                        style: TextStyle(
+                                            fontStyle: FontStyle.italic,
+                                            fontWeight: FontWeight.bold,
+                                            color: Colors.black),
+                                      ),
+                                    ),
                                   ],
                                   rows: <DataRow>[
                                     DataRow(cells: <DataCell>[
@@ -190,6 +199,12 @@ class _deliveryState extends State<delivery> {
                                           style: const TextStyle(
                                               color: Colors.black,
                                               fontWeight: FontWeight.bold))),
+                                      DataCell(Text(
+                                        _items[0]["Delivery_Status"].toString(),
+                                        style: const TextStyle(
+                                            color: Colors.black,
+                                            fontWeight: FontWeight.bold),
+                                      )),
                                     ]),
                                     DataRow(cells: <DataCell>[
                                       DataCell(Text(
@@ -235,6 +250,12 @@ class _deliveryState extends State<delivery> {
                                           style: const TextStyle(
                                               color: Colors.black,
                                               fontWeight: FontWeight.bold))),
+                                      DataCell(Text(
+                                        _items[1]["Delivery_Status"].toString(),
+                                        style: const TextStyle(
+                                            color: Colors.black,
+                                            fontWeight: FontWeight.bold),
+                                      )),
                                     ]),
                                     DataRow(cells: <DataCell>[
                                       DataCell(Text(
@@ -280,6 +301,12 @@ class _deliveryState extends State<delivery> {
                                           style: const TextStyle(
                                               color: Colors.black,
                                               fontWeight: FontWeight.bold))),
+                                      DataCell(Text(
+                                        _items[2]["Delivery_Status"].toString(),
+                                        style: const TextStyle(
+                                            color: Colors.black,
+                                            fontWeight: FontWeight.bold),
+                                      )),
                                     ]),
                                     DataRow(cells: <DataCell>[
                                       DataCell(Text(
@@ -325,6 +352,12 @@ class _deliveryState extends State<delivery> {
                                           style: const TextStyle(
                                               color: Colors.black,
                                               fontWeight: FontWeight.bold))),
+                                      DataCell(Text(
+                                        _items[3]["Delivery_Status"].toString(),
+                                        style: const TextStyle(
+                                            color: Colors.black,
+                                            fontWeight: FontWeight.bold),
+                                      )),
                                     ]),
                                     DataRow(cells: <DataCell>[
                                       DataCell(Text(
@@ -370,6 +403,12 @@ class _deliveryState extends State<delivery> {
                                           style: const TextStyle(
                                               color: Colors.black,
                                               fontWeight: FontWeight.bold))),
+                                      DataCell(Text(
+                                        _items[4]["Delivery_Status"].toString(),
+                                        style: const TextStyle(
+                                            color: Colors.black,
+                                            fontWeight: FontWeight.bold),
+                                      )),
                                     ]),
                                     DataRow(cells: <DataCell>[
                                       DataCell(Text(
@@ -415,6 +454,12 @@ class _deliveryState extends State<delivery> {
                                           style: const TextStyle(
                                               color: Colors.black,
                                               fontWeight: FontWeight.bold))),
+                                      DataCell(Text(
+                                        _items[5]["Delivery_Status"].toString(),
+                                        style: const TextStyle(
+                                            color: Colors.black,
+                                            fontWeight: FontWeight.bold),
+                                      )),
                                     ]),
                                     DataRow(cells: <DataCell>[
                                       DataCell(Text(
@@ -460,6 +505,12 @@ class _deliveryState extends State<delivery> {
                                           style: const TextStyle(
                                               color: Colors.black,
                                               fontWeight: FontWeight.bold))),
+                                      DataCell(Text(
+                                        _items[6]["Delivery_Status"].toString(),
+                                        style: const TextStyle(
+                                            color: Colors.black,
+                                            fontWeight: FontWeight.bold),
+                                      )),
                                     ]),
                                     DataRow(cells: <DataCell>[
                                       DataCell(Text(
@@ -505,6 +556,12 @@ class _deliveryState extends State<delivery> {
                                           style: const TextStyle(
                                               color: Colors.black,
                                               fontWeight: FontWeight.bold))),
+                                      DataCell(Text(
+                                        _items[7]["Delivery_Status"].toString(),
+                                        style: const TextStyle(
+                                            color: Colors.black,
+                                            fontWeight: FontWeight.bold),
+                                      )),
                                     ])
                                   ],
                                 ),
